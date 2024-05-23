@@ -9,9 +9,10 @@ To design a completely analogic circuit capable of sequentially starting three s
 
 * The three AC motors are named as "A", "B" and "C". Each one is activable in a independent manner, powered by a common electrical source of 127V AC at 60 Hz.
 * The circuit is conformed by two stages: control circuit and power circuit.
-* Both circuits are isolated. 
+* Both circuits are isolated.
+* The power voltage for control circuit is fixed to 5V. 
 * Only analogic elements are allowed to conform the circuit (i.e. resistors, capacitors, transistors, diodes, etc.), basic integrated circuits (AND, OR, NAND, NOR, NOT) and NE555 timers. Operation Amplifiers are not allowed.
-* The minimum and maximum number of elements are not specified. The power voltage for control circuit is fixed to 5V. 
+* The minimum and maximum number of elements are not specified.
 
 The operation is described as follows:
 
@@ -31,4 +32,3 @@ An early effort was made in LiveWire.
 However, for final and definitive simulation, Proteus (more specific, Isis) is chosen. 
 
 ![416506_466325673384366_1776106834_o](https://github.com/Lechuga-Geronimo/Analog-Sequential-Starting-of-three-Single-Phase-AC-Motors/assets/142461885/e962be50-1e69-4dfb-b814-43a17f2c6cde)
-
