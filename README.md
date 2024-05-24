@@ -1,4 +1,5 @@
 # Analog-Sequential-Starting-of-three-Single-Phase-AC-Motors
+A project to start three single-phase AC motors in a timed and specific sequence. 
 
 ## Year: 2011.
 
