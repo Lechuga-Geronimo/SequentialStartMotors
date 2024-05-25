@@ -19,8 +19,11 @@ To design a completely analogic circuit capable of sequentially starting three s
 The operation is described as follows:
 
 1.- After 3 seconds of single-pushed one "Start" button, the motor "A" gets operative indeterminately. 
+
 2.- Atfer 5 seconds the motor "A" is activated, the "B" motor starts; indeterminately, as well. 
+
 3.- 7 seconds after the "B" is operating, the "C" gets started. All three motors shall remain operative until a "Stop" button is pushed, or...
+
 4.- After 10 seconds the "C" motor started, the sequence will restart from step 1, with the exception of not being necessary to push the "Start" button. 
 
 Note: The "Stop" button may be pushed in any step or moment and still shall be effective. 
